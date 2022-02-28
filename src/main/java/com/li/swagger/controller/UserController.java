@@ -34,7 +34,7 @@ public class UserController {
         return users;
     }
 
-    @ApiIgnore
+    //@ApiIgnore
     @RequestMapping(value = "user/user2", method = RequestMethod.GET)
     @ApiResponses(value = {
             @ApiResponse(code = 200,message = "请求成功"),
