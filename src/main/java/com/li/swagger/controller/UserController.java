@@ -46,7 +46,7 @@ public class UserController {
             @ApiResponse(code = 500,message = "服务器错误"),
             @ApiResponse(code = 502,message = "服务器暂时不可用"),
             @ApiResponse(code = 503,message = "服务器不可用"),
-            @ApiResponse(code = 504,message = "网关超时"),
+           // @ApiResponse(code = 504,message = "网关超时"),
     })
     @ApiOperation(value = "获取用户信息2", notes = "根据用户id获取用户信息2")
     public Users getUser2(
