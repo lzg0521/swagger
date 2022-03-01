@@ -41,7 +41,7 @@ public class UserController {
             @ApiResponse(code = 400,message = "缺失参数"),
             @ApiResponse(code = 401,message = "没有权限"),
             @ApiResponse(code = 403,message = "被隐藏了"),
-            @ApiResponse(code = 404,message = "页面找不到"),
+           // @ApiResponse(code = 404,message = "页面找不到"),
             @ApiResponse(code = 405,message = "方法不支持"),
             @ApiResponse(code = 500,message = "服务器错误"),
             @ApiResponse(code = 502,message = "服务器暂时不可用"),
